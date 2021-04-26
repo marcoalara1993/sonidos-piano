@@ -13,3 +13,5 @@ function removeTransition(e) {
   const keys = Array.from(document.querySelectorAll('.key'));
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
   window.addEventListener('keydown', playSound);
+
+  console.log("Quizas debas descargar el codigo a tu pc para poder oir los sonidos")
