@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sonidos piano con JS</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">1</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">2</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">3</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">4</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">5</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">6</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">7</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">8</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">9</span>
+      </div>
+    </div>
+
+    <audio
+      data-key="65"
+      src="http://sonidosmp3gratis.com/sounds/online-guitar-tuner-d3-.mp3"
+    ></audio>
+    <audio
+      data-key="83"
+      src="http://sonidosmp3gratis.com/sounds/online-guitar-tuner-g3-.mp3"
+    ></audio>
+    <audio
+      data-key="68"
+      src="http://sonidosmp3gratis.com/sounds/online-guitar-tuner-b3-.mp3"
+    ></audio>
+    <audio
+      data-key="70"
+      src="http://sonidosmp3gratis.com/sounds/online-guitar-tuner-e2-.mp3"
+    ></audio>
+    <audio
+      data-key="71"
+      src="http://sonidosmp3gratis.com/sounds/online-guitar-tuner-a2-.mp3"
+    ></audio>
+    <audio
+      data-key="72"
+      src="http://sonidosmp3gratis.com/sounds/online-guitar-tuner-e4-.mp3"
+    ></audio>
+    <audio
+      data-key="74"
+      src="http://sonidosmp3gratis.com/sounds/guitarra-afinar-cuerda-uno-.mp3"
+    ></audio>
+    <audio
+      data-key="75"
+      src="http://sonidosmp3gratis.com/sounds/guitarra-afinar-cuerda-dos-.mp3"
+    ></audio>
+    <audio
+      data-key="76"
+      src="http://sonidosmp3gratis.com/sounds/guitarra-afinar-cuerda-tres-.mp3"
+    ></audio>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
